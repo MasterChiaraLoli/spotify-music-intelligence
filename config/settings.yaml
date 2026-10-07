@@ -1,0 +1,22 @@
+# Impostazioni modificabili senza toccare il codice
+timezone: "Europe/Rome"
+schedule: "0 10 1 * *"        # 1° del mese alle 10:00 (verrà usato allo STEP 14)
+
+top_tracks: 10                # elementi nella Top del report
+top_albums: 10
+quick_report_items: 12        # massimo 10-15 per la notifica
+max_tracks_best: 30
+max_tracks_discovery: 50
+
+create_monthly_playlist: true
+create_yearly_playlist: true
+send_telegram: true
+send_email: false
+
+# Raccolta dati da Spotify (STEP 5)
+collection:
+  max_artists_to_scan: 400        # tetto di artisti da controllare per run
+  saved_albums_max: 200           # album salvati più recenti da leggere
+  saved_tracks_max: 500           # brani salvati più recenti da leggere
+  request_delay_seconds: 0.15     # pausa tra le richieste, per non stressare l'API
+  include_appears_on: false       # true = include anche le uscite di altri dove l'artista compare

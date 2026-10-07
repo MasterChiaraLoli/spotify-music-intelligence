@@ -1,0 +1,6 @@
+# Artisti e generi da non mostrare mai
+blacklist_artists: []
+  # - Nome Artista X
+
+blacklist_genres: []
+  # - hardstyle

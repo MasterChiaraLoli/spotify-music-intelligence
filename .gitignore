@@ -1,0 +1,16 @@
+# Segreti e credenziali: MAI nel repository
+.env
+.spotify_token.json
+
+# Dati Spotify raccolti in locale (non vanno pubblicati)
+data/last_collection.json
+
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editor / sistema
+.idea/
+.vscode/
+.DS_Store
