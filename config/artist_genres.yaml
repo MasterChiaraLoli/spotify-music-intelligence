@@ -1,0 +1,7 @@
+# Generi che assegni tu agli artisti (Spotify non li fornisce piu').
+# Formato:  "Nome Artista": ["genere1", "genere2"]
+# E' facoltativo: puoi compilarlo anche solo per pochi artisti.
+
+artist_genres:
+  # "Nome Artista A": ["pop", "r&b"]
+  # "Nome Artista B": ["hardstyle"]

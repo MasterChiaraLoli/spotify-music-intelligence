@@ -1,6 +1,15 @@
-# Artisti e generi da non mostrare mai
-blacklist_artists: []
-  # - Nome Artista X
+# Cosa non vuoi mai vedere. Scrivi i nomi TRA VIRGOLETTE.
 
-blacklist_genres: []
-  # - hardstyle
+blacklist_artists:
+  # - "Nome Artista X"
+
+# I generi esclusi valgono solo per gli artisti elencati in artist_genres.yaml
+blacklist_genres:
+  # - "hardstyle"
+
+# Parole che, se compaiono nel titolo di un'uscita, la fanno scartare
+blacklist_title_keywords:
+  # - "8D Audio"
+  # - "nightcore"
+  # - "sped up"
+  # - "karaoke"

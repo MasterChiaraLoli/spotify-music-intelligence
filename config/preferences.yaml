@@ -1,8 +1,13 @@
-# Il tuo profilo musicale. Modificalo a mano quando vuoi.
-favorite_artists: []
-  # - Nome Artista A
-  # - Nome Artista B
+# Il tuo profilo musicale. Modificalo quando vuoi.
+# Scrivi i nomi TRA VIRGOLETTE. Maiuscole e accenti non contano.
+# In alternativa al nome puoi scrivere l'ID Spotify dell'artista
+# (la parte finale del link: open.spotify.com/artist/ID).
 
-favorite_genres: []
-  # - pop
-  # - r&b
+favorite_artists:
+  # - "Nome Artista A"
+  # - "Nome Artista B"
+
+# I generi preferiti valgono solo per gli artisti elencati in artist_genres.yaml
+favorite_genres:
+  # - "pop"
+  # - "r&b"
