@@ -4,6 +4,8 @@
 
 # Dati Spotify raccolti in locale (non vanno pubblicati)
 data/last_collection.json
+data/*.sqlite
+data/*.sqlite-journal
 
 # Ambiente Python
 .venv/
